@@ -2656,33 +2656,33 @@
     "lastUpdate": "2020\/03\/10 8:00",
     "main_summary": {
         "attr": "検査実施人数",
-        "value": 1233,
+        "value": 133,
         "children": [
             {
                 "attr": "陽性患者数",
-                "value": 64,
+                "value": 2,
                 "children": [
                     {
                         "attr": "入院中",
-                        "value": 40,
+                        "value": 0,
                         "children": [
                             {
                                 "attr": "軽症・中等症",
-                                "value": 33
+                                "value": 2 
                             },
                             {
                                 "attr": "重症",
-                                "value": 7
+                                "value": 0
                             }
                         ]
                     },
                     {
                         "attr": "退院",
-                        "value": 22
+                        "value": 0
                     },
                     {
                         "attr": "死亡",
-                        "value": 2
+                        "value": 0
                     }
                 ]
             }

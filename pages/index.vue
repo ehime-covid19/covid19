@@ -82,6 +82,7 @@
           :url="''"
         />
       </v-col>
+      <!--XXXXXX
       <v-col cols="12" md="6" class="DataCard">
         <metro-bar-chart
           title="都営地下鉄の利用者数の推移"
@@ -92,6 +93,7 @@
           :date="metroGraph.date"
         />
       </v-col>
+-->
     </v-row>
   </div>
 </template>
@@ -99,7 +101,7 @@
 <script>
 import PageHeader from '@/components/PageHeader.vue'
 import TimeBarChart from '@/components/TimeBarChart.vue'
-import MetroBarChart from '@/components/MetroBarChart.vue'
+// import MetroBarChart from '@/components/MetroBarChart.vue'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import StaticInfo from '@/components/StaticInfo.vue'
@@ -117,7 +119,7 @@ export default {
   components: {
     PageHeader,
     TimeBarChart,
-    MetroBarChart,
+    // MetroBarChart,
     TimeStackedBarChart,
     WhatsNew,
     StaticInfo,
@@ -180,7 +182,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '都内の最新感染動向',
+        title: '県内の最新感染動向',
         date: Data.lastUpdate
       },
       newsItems: News.newsItems,
@@ -242,7 +244,7 @@ export default {
   },
   head() {
     return {
-      title: '都内の最新感染動向'
+      title: '県内の最新感染動向'
     }
   }
 }

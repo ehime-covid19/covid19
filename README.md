@@ -2,9 +2,7 @@
 
 ![](https://github.com/ehime-covid19/covid19/static/logo.svg)
 
-[![愛媛県 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/1301149/75629392-1d19d900-5c25-11ea-843d-2d4376e3a560.png)](https://ehime-covid19.com)
-
-### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md) | [Chinese (Simplified)](./README_ZH_CN.md)
+[![愛媛県 新型コロナウイルス感染症対策サイト](https://github.com/ehime-covid19/covid19/static/logo.svg)](https://ehime-covid19.com)
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。

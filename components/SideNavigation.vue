@@ -140,17 +140,15 @@ export default {
         {
           title: this.$t('Official statements from Task Force'),
           link:
-            'https://www.bousai.metro.tokyo.lg.jp/taisaku/saigai/1007261/index.html'
+            'https://www.pref.ehime.jp/h25500/kansen/covid19.html#honbukaigi'
         },
         {
           title: this.$t('Cancelled public events'),
-          link:
-            'https://www.seisakukikaku.metro.tokyo.lg.jp/information/event02.html'
+          link: 'https://www.pref.ehime.jp/h25500/kansen/covid19.html#event'
         },
         {
           title: this.$t('Message from Governor Koike'),
-          link:
-            'https://www.metro.tokyo.lg.jp/tosei/governor/governor/katsudo/2020/03/03_00.html'
+          link: 'https://www.pref.ehime.jp/h25500/kansen/covid19.html#link1'
         },
         {
           title: this.$t('About us'),
@@ -158,7 +156,7 @@ export default {
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.metro.tokyo.lg.jp/',
+          link: 'https://www.pref.ehime.jp/h25500/kansen/covid19.html',
           divider: true
         }
       ]

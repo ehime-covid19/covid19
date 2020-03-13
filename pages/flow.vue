@@ -73,11 +73,11 @@
           <div class="mx-2 mb-5">
             <img
               src="/flow/sp/sp_flow_04@2x.png"
-              alt="不安に思う方／微熱・軽い咳・感染の不安／新型コロナコールセンター 午前９時から午後９時（土日祝含む）"
+              alt="不安に思う方／微熱・軽い咳・感染の不安／新型コロナコールセンター （２４時間対応）"
             />
           </div>
           <div class="TelLink">
-            <a href="tel:0570550571"
+            <a href="tel:089-909-3468"
               ><img src="/flow/sp/sp_flow_tel_01@2x.png" alt="0570-550571"
             /></a>
           </div>
@@ -100,6 +100,14 @@
           <div class="SodanHeader">
             <div class="SodanChip">
               24時間対応
+              <dd class="TelLink">
+                <a href="tel:0899093483">
+                  <img
+                    src="/flow/sp/sp_flow_tel_03@2x.png"
+                    alt="089-909-3483"
+                  />
+                </a>
+              </dd>
             </div>
           </div>
           <dl>
@@ -130,10 +138,10 @@
                 土日祝 終日
               </dt>
               <dd class="TelLink">
-                <a href="tel:0353204592">
+                <a href="tel:0899093483">
                   <img
                     src="/flow/sp/sp_flow_tel_03@2x.png"
-                    alt="03-5320-4592"
+                    alt="089-909-3483"
                   />
                 </a>
               </dd>

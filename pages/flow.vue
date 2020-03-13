@@ -118,7 +118,7 @@
               <dd>
                 <a
                   class="Link"
-                  href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+                  href="https://ehime-covid19.com/link_covid19/ehime-kikoku.php"
                   target="_blank"
                   rel="noopener"
                 >

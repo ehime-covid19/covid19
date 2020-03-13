@@ -39,6 +39,7 @@
       </v-list>
       <div class="SideNavigation-Footer">
         <div class="SideNavigation-SocialLinkContainer">
+          <!--XXXXXXXXXXXXXX
           <a
             href="https://line.me/R/ti/p/%40822sysfc"
             target="_blank"
@@ -60,6 +61,7 @@
           >
             <img src="/facebook.png" alt="Facebook" />
           </a>
+-->
         </div>
         <small class="SideNavigation-Copyright" lang="en">
           Copyright &copy; 2020 Tokyo Metropolitan Government. All Rights

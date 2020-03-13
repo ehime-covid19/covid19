@@ -1184,7 +1184,7 @@
       <g transform="translate(0 -19)">
         <g transform="translate(19 5)">
           <a
-            xlink:href="https://www.fukushihoken.metro.tokyo.lg.jp/iryo/kansen/coronasodan.html"
+            xlink:href="https://ehime-covid19.com/link_covid19/ehime-kikoku.php"
             target="_blank"
             rel="noopener"
           >

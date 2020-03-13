@@ -60,6 +60,7 @@
           :unit="'件'"
         />
       </v-col>
+      <!--XXXXXXX
       <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
           title="新型コロナコールセンター相談件数"
@@ -82,7 +83,6 @@
           :url="''"
         />
       </v-col>
-      <!--XXXXXX
       <v-col cols="12" md="6" class="DataCard">
         <metro-bar-chart
           title="都営地下鉄の利用者数の推移"
@@ -143,11 +143,11 @@ export default {
     const metroGraph = MetroData
     // 検査実施日別状況
     const inspectionsGraph = [
-      Data.inspections_summary.data['都内'],
+      Data.inspections_summary.data['県内'],
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      '都内発生（疑い例・接触者調査）',
+      '県内発生（疑い例・接触者調査）',
       'その他（チャーター便・クルーズ便）'
     ]
     const inspectionsLabels = Data.inspections_summary.labels

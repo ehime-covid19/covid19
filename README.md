@@ -1,8 +1,8 @@
-# 愛媛県 新型コロナウイルス感染症対策サイト
+# 愛媛県(非公式) 新型コロナウイルス感染症対策サイト
 
 ![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/)
 
-[![東京都 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/1301149/)](https://ehime-covid19.com/)
+[![愛媛県（非公式） 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/1301149/)](https://ehime-covid19.com/)
 
 ### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md)
 

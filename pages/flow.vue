@@ -78,7 +78,7 @@
           </div>
           <div class="TelLink">
             <a href="tel:089-909-3468"
-              ><img src="/flow/sp/sp_flow_tel_01@2x.png" alt="0570-550571"
+              ><img src="/flow/sp/sp_flow_tel_01@2x.png" alt="089-909-3468"
             /></a>
           </div>
           <div class="mt-4">

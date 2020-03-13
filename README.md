@@ -2,9 +2,8 @@
 
 ![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/)
 
-[![愛媛県（非公式） 新型コロナウイルス感染症対策サイト](https://user-images.githubusercontent.com/1301149/)](https://ehime-covid19.com/)
+[![愛媛県（非公式） 新型コロナウイルス感染症対策サイト](https://ehime-covid19.com/static/mikan.svg)](https://ehime-covid19.com/)
 
-### 日本語 | [English](./README_EN.md) | [Spanish](./README_ES.md) | [Korean](./README_KO.md) | [Chinese (Taiwan)](./README_ZH_TW.md)
 
 ## 貢献の仕方
 Issues にあるいろいろな修正にご協力いただけると嬉しいです。

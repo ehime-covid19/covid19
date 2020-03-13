@@ -8,6 +8,7 @@
 北海道|https://stopcovid19.hokkaido.dev/|[codeforsapporo/covid19](/codeforsapporo/covid19)|
 神奈川県|https://www.pref.kanagawa.jp/osirase/1369/| |
 愛知県|https://stopcovid19.code4.nagoya/|[code4nagoya/covid19](/code4nagoya/covid19)|
+愛媛県|https://ehime-covid19.com/|[ehime-covid19/covid19](/ehime-covid19/covid19)|
 
 ## 都道府県追加時のルール
 

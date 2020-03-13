@@ -31,7 +31,7 @@
           :date="Data.patients.date"
           :unit="'人'"
           :url="
-            'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
+            'https://www.pref.ehime.jp/h25500/kansen/covid19.html#kansensha'
           "
         />
       </v-col>
@@ -44,7 +44,7 @@
           :date="Data.patients.date"
           :info="sumInfoOfPatients"
           :url="
-            'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
+            'https://www.pref.ehime.jp/h25500/kansen/covid19.html#kansensha'
           "
         />
       </v-col>

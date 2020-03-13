@@ -129,7 +129,7 @@ export default {
         {
           icon: 'mdi-account-multiple',
           title: this.$t('for Citizens'),
-          link: 'https://www.metro.tokyo.lg.jp/tosei/tosei/news/2019-ncov.html'
+          link: 'https://www.pref.ehime.jp/h25500/kansen/covid19.html#link1'
         },
         {
           icon: 'mdi-domain',

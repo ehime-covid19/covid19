@@ -361,7 +361,7 @@
         <tspan x="-76.67" y="25">コールセンター</tspan>
       </text>
       <text class="c" transform="translate(622 614)">
-        <tspan x="-75.392" y="0">午前9時から午後9時</tspan>
+        <tspan x="-45.392" y="0">24時間対応</tspan>
         <tspan x="-56" y="20">（土日祝含む）</tspan>
       </text>
       <g class="az" transform="matrix(1, 0, 0, 1, -3, -3)">
@@ -528,16 +528,16 @@
       </g>
       <rect
         class="m"
-        height="498"
+        height="520"
         rx="4"
         transform="translate(761)"
         width="279"
       />
-      <text class="n" transform="translate(901 60)">
+      <text class="n" transform="translate(901 40)">
         <tspan x="-65" y="0">新型コロナ</tspan>
         <tspan x="-78" y="29">受診相談窓口</tspan>
       </text>
-      <text class="c" transform="translate(901 128)">
+      <text class="c" transform="translate(901 92)">
         <tspan x="-56" y="0">帰国者・接触者</tspan>
         <tspan x="-64" y="18">電話相談センター</tspan>
       </text>
@@ -546,18 +546,22 @@
           class="i"
           height="42"
           rx="4"
-          transform="translate(876 270)"
+          transform="translate(876 228)"
           width="158"
         />
-        <text class="o" transform="translate(955 298)">
+        <text class="o" transform="translate(955 258)">
           <tspan x="-48.816" y="0">24時間対応</tspan>
+        </text>
+        <text class="an" transform="translate(940 313)">
+          <tspan x="-48.051" y="-7">089-909-3483</tspan>
         </text>
       </g>
       <g transform="translate(-45 -100)">
         <text class="p" transform="translate(946 469)">
-          <tspan x="-54" y="0">平日（夜間）</tspan>
+          <tspan x="-104" y="0">平日/休日（21:00以降）</tspan>
           <tspan class="q">
-            <tspan x="-91.392" y="23">午後5時から翌朝午前9時</tspan>
+            <tspan x="-121.392" y="23">松山市以外居住者:090-9770-8483</tspan>
+            <tspan x="-121.392" y="53">松山市居住者:089-909-3733</tspan>
           </tspan>
         </text>
       </g>
@@ -565,12 +569,12 @@
       <line class="r" transform="translate(783.5 338.5)" x2="236" />
       <g transform="translate(-64 -102)">
         <text class="p" transform="translate(965 363)">
-          <tspan x="-54" y="0">平日（日中）</tspan>
+          <tspan x="-104" y="0">平日/休日（9:00～21:00）</tspan>
         </text>
       </g>
       <g transform="translate(-56 55)">
         <text class="p" transform="translate(957 367)">
-          <tspan x="-47.997" y="0">土日祝 終日</tspan>
+          <!--<tspan x="-47.997" y="0">土日祝 終日</tspan>-->
         </text>
       </g>
       <g class="ay" transform="matrix(1, 0, 0, 1, -3, -3)">
@@ -1169,7 +1173,7 @@
         </g>
       </g>
       <g transform="translate(0 7)">
-        <text class="an" transform="translate(913 456)">
+        <!--<text class="an" transform="translate(913 456)">
           <tspan x="-84.051" y="0">089-909-3483</tspan>
         </text>
         <g transform="translate(800 434)">
@@ -1180,6 +1184,7 @@
             transform="translate(0.25 0.25)"
           />
         </g>
+	-->
       </g>
       <g transform="translate(0 -19)">
         <g transform="translate(19 5)">
@@ -1190,7 +1195,7 @@
           >
             <text class="c" transform="translate(803 311)" style="">
               <tspan x="0" y="0">各保健所の電話番号は</tspan>
-              <tspan x="0" y="22">福祉保健局HPへ</tspan>
+              <tspan x="0" y="22">リンク先を参照へ</tspan>
             </text>
           </a>
           <g transform="translate(927 318)">

@@ -100,15 +100,12 @@
           <div class="SodanHeader">
             <div class="SodanChip">
               24時間対応
-              <dd class="TelLink">
-                <a href="tel:0899093483">
-                  <img
-                    src="/flow/sp/sp_flow_tel_03@2x.png"
-                    alt="089-909-3483"
-                  />
-                </a>
-              </dd>
             </div>
+            <dd class="TelLink">
+              <a href="tel:0899093483">
+                <img src="/flow/sp/sp_flow_tel_03@2x.png" alt="089-909-3483" />
+              </a>
+            </dd>
           </div>
           <dl>
             <div class="SodanHeijitsu">

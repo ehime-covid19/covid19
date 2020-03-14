@@ -182,7 +182,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '県内の最新感染動向',
+        title: '愛媛県内の最新感染動向',
         date: Data.lastUpdate
       },
       newsItems: News.newsItems,
@@ -244,7 +244,7 @@ export default {
   },
   head() {
     return {
-      title: '県内の最新感染動向'
+      title: '愛媛県内の最新感染動向'
     }
   }
 }

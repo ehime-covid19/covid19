@@ -2,7 +2,7 @@
 
 ![](https://github.com/tokyo-metropolitan-gov/covid19/workflows/)
 
-[![愛媛県（非公式） 新型コロナウイルス感染症対策サイト](https://ehime-covid19.com/static/mikan.svg)](https://ehime-covid19.com/)
+[![愛媛県（非公式） 新型コロナウイルス感染症対策サイト](https://ehime-covid19.com/ogp.png)](https://ehime-covid19.com/)
 
 
 ## 貢献の仕方

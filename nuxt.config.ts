@@ -46,7 +46,7 @@ const config: Configuration = {
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://ehime-covid19.com/static/icon.png'
+        content: 'https://ehime-covid19.com/icon.png'
       },
       {
         hid: 'twitter:card',
@@ -66,7 +66,7 @@ const config: Configuration = {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://ehime-covid19.com/static/icon.png'
+        content: 'https://ehime-covid19.com/icon.png'
       }
     ],
     link: [

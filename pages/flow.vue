@@ -110,7 +110,7 @@
           <dl>
             <div class="SodanHeijitsu">
               <dt class="Heijitsu">
-                平日（日中）
+                平日/休日（9:00～21:00）
               </dt>
               <dd>
                 <a
@@ -119,7 +119,7 @@
                   target="_blank"
                   rel="noopener"
                 >
-                  各保健所の電話番号は福祉保健局HPへ
+                  各保健所の電話番号はリンクを参照
                   <v-icon size="16">
                     mdi-open-in-new
                   </v-icon>
@@ -128,12 +128,14 @@
             </div>
             <div class="SodanYakan">
               <dt class="Yakan">
-                平日（夜間）
+                平日/休日（21:00以降）
                 <br />
-                <span class="SodanTime">午後５時から翌朝午前９時</span>
+                <span class="SodanTime">松山市以外居住者:090-9770-8483</span
+                ><BR />
+                <span class="SodanTime">松山市居住者:089-909-3733</span>
                 <br />
-                土日祝 終日
               </dt>
+              <!--
               <dd class="TelLink">
                 <a href="tel:0899093483">
                   <img
@@ -142,6 +144,7 @@
                   />
                 </a>
               </dd>
+-->
             </div>
           </dl>
         </div>

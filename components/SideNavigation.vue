@@ -64,8 +64,7 @@
 -->
         </div>
         <small class="SideNavigation-Copyright" lang="en">
-          Copyright &copy; 2020 Tokyo Metropolitan Government. All Rights
-          Reserved.
+          Copyright &copy; 2020 ehime covid19. All Rights Reserved.
         </small>
       </div>
     </div>

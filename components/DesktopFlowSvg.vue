@@ -560,8 +560,8 @@
         <text class="p" transform="translate(946 469)">
           <tspan x="-104" y="0">平日/休日（21:00以降）</tspan>
           <tspan class="q">
-            <tspan x="-121.392" y="23">松山市以外居住者:090-9770-8483</tspan>
-            <tspan x="-121.392" y="53">松山市居住者:089-909-3733</tspan>
+            <tspan x="-141.392" y="23">松山市以外居住者:090-9770-8483</tspan>
+            <tspan x="-141.392" y="53">松山市居住者:089-909-3733</tspan>
           </tspan>
         </text>
       </g>

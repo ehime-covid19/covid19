@@ -101,7 +101,9 @@
       >をご確認ください。
     </TextCard>
 
-    <TextCard title="お問い合わせ先（愛媛県のHPサイトポリシーについて）" />
+    <TextCard title="お問い合わせ先（このページの開発について）">
+      このページの開発についてのお問い合わせは、ehime.covid19@gmail.comまでご連絡ください。
+    </TextCard>
   </div>
 </template>
 

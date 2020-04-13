@@ -78,7 +78,7 @@
     "Navi Close": "サイドメニュー項目を閉じる",
     "Tokyo": "愛媛県",
     "COVID-19": "愛媛県新型コロナウイルス感染症",
-    "Measures site": "対策サイト(愛媛県非公式)",
+    "Measures site": "対策サイト(愛媛県公式)",
     "Tokyo Metropolitan Government": "愛媛県",
     "Tokyo COVID-19 Task Force": "新型コロナウイルス感染症対策本部",
     "The latest updates": "県内の最新感染動向",

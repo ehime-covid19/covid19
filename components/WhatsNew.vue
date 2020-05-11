@@ -8,29 +8,54 @@
     </h2>
     <ul class="WhatsNew-list">
       <li v-for="(item, i) in items" :key="i" class="WhatsNew-list-item">
-        <a
+        <!--
+        <a 
           class="WhatsNew-list-item-anchor"
           :href="item.url"
           target="_blank"
           rel="noopener"
         >
-          <time
-            class="WhatsNew-list-item-anchor-time px-2"
-            :datetime="formattedDate(item.date)"
+-->
+        <time
+          class="WhatsNew-list-item-anchor-time px-2"
+          :datetime="formattedDate(item.date)"
+        >
+          {{ item.date }}
+        </time>
+        <span class="WhatsNew-list-item-anchor-link">
+          <h2>{{ item.title1 }}</h2>
+          <div
+            style="display: inline-block;padding: 10px; margin-bottom: 10px; border: 1px solid #333333;"
           >
-            {{ item.date }}
-          </time>
-          <span class="WhatsNew-list-item-anchor-link">
-            {{ item.text }}
-            <v-icon
-              v-if="!isInternalLink(item.url)"
-              class="WhatsNew-item-ExternalLinkIcon"
-              size="12"
-            >
-              mdi-open-in-new
-            </v-icon>
-          </span>
+            <h3>{{ item.kou1 }}</h3>
+            <h4>{{ item.text1 }}</h4>
+            <h4>{{ item.text2 }}</h4>
+          </div>
+          <div
+            style="display: inline-block;padding: 10px; margin-bottom: 10px; border: 1px solid #333333;"
+          >
+            <h3>{{ item.kou2 }}</h3>
+            <h4>{{ item.text3 }}</h4>
+            <h4>{{ item.text4 }}</h4>
+          </div>
+          <div
+            style="display: inline-block;padding: 10px; margin-bottom: 10px; border: 1px solid #333333;"
+          >
+            <h3>{{ item.kou3 }}</h3>
+            <h4>{{ item.text5 }}</h4>
+            <h4>{{ item.text6 }}</h4>
+          </div>
+          <v-icon
+            v-if="!isInternalLink(item.url)"
+            class="WhatsNew-item-ExternalLinkIcon"
+            size="12"
+          >
+            mdi-open-in-new
+          </v-icon>
+        </span>
+        <!--
         </a>
+-->
       </li>
     </ul>
   </div>

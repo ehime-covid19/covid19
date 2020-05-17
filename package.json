@@ -8,7 +8,7 @@
     "node": ">=10.19.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_ENV=development nuxt-ts",
+    "dev": "cross-env NODE_ENV=development nuxt-ts --hostname ehime-covid19.com --port 3333",
     "build": "nuxt-ts build",
     "start": "cross-env NODE_ENV=production nuxt-ts start",
     "generate:deploy": "nuxt-ts generate",
@@ -26,7 +26,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
     }
   },
   "dependencies": {
@@ -35,8 +34,9 @@
     "@nuxtjs/dotenv": "^1.4.0",
     "@nuxtjs/pwa": "^3.0.0-0",
     "chart.js": "^2.9.3",
+    "chartjs": "^0.3.24",
     "cross-env": "^5.2.0",
-    "dayjs": "^1.8.21",
+    "dayjs": "^1.8.27",
     "express": "^4.16.4",
     "nuxt": "^2.11.0",
     "nuxt-i18n": "^6.6.0",

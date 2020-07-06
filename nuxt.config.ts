@@ -182,7 +182,30 @@ const config: Configuration = {
     splash_pages: null
   },
   generate: {
-    fallback: true
+    fallback: true,
+    routes() {
+      const pages = [
+        '/cards/details-of-confirmed-cases',
+        '/cards/details-of-tested-cases',
+        '/cards/number-of-confirmed-cases',
+        '/cards/number-of-confirmed-cases-by-municipalities',
+        '/cards/attributes-of-confirmed-cases',
+        '/cards/number-of-tested',
+        '/cards/number-of-inspection-persons',
+        '/cards/number-of-reports-to-covid19-telephone-advisory-center',
+        '/cards/number-of-reports-to-covid19-consultation-desk',
+        '/cards/predicted-number-of-toei-subway-passengers',
+        '/cards/agency',
+        '/cards/positive-rate',
+        '/cards/positive-number-by-diagnosed-date'
+      ]
+
+      const routes: string[] = []
+      pages.forEach(page => {
+        routes.push(page)
+      })
+      return routes
+    }
   },
   // /*
   // ** hot read configuration for docker

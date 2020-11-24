@@ -38,17 +38,17 @@
                 </div>
               </div>
             </li>
-		  <li :class="[$style.box, $style.short, $style.severe]">
-		  <div :class="$style.pillar">
-		    <div :class="$style.content">
-		      <span>{{ $t('宿泊療養') }}</span>
-		      <span>
-			<strong>{{ 宿泊療養.toLocaleString() }}</strong>
-			<span :class="$style.unit">{{ $t('人') }}</span>
-		      </span>
-		    </div>
-		  </div>
-		</li>
+            <li :class="[$style.box, $style.short, $style.severe]">
+              <div :class="$style.pillar">
+                <div :class="$style.content">
+                  <span>{{ $t('宿泊療養') }}</span>
+                  <span>
+                    <strong>{{ 宿泊療養.toLocaleString() }}</strong>
+                    <span :class="$style.unit">{{ $t('人') }}</span>
+                  </span>
+                </div>
+              </div>
+            </li>
             <li :class="[$style.box, $style.short, $style.severe]">
               <div :class="$style.pillar">
                 <div :class="$style.content">
@@ -61,6 +61,17 @@
               </div>
             </li>
           </ul>
+        </li>
+        <li :class="[$style.box, $style.deceased]">
+          <div :class="$style.pillar">
+            <div :class="$style.content">
+              <span>{{ $t('自宅療養等') }}</span>
+              <span>
+                <strong>{{ 自宅療養等.toLocaleString() }}</strong>
+                <span :class="$style.unit">{{ $t('人') }}</span>
+              </span>
+            </div>
+          </div>
         </li>
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
@@ -116,6 +127,10 @@ export default Vue.extend({
       required: true
     },
     宿泊療養: {
+      type: Number,
+      required: true
+    },
+    自宅療養等: {
       type: Number,
       required: true
     },

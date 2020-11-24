@@ -24,7 +24,7 @@
       <!-- 検査陽性者の状況 -->
       <confirmed-cases-details-card />
       <!-- 検査実施状況 -->
-      <tested-cases-details-card />
+      <!--<tested-cases-details-card />-->
       <!-- 陽性患者数 -->
       <confirmed-cases-number-card />
       <!-- 陽性患者数（検査結果判明日別） -->
@@ -32,7 +32,7 @@
       <!-- 陽性患者の属性 -->
       <confirmed-cases-attributes-card />
       <!-- 区市町村別患者数 -->
-      <!--<confirmed-cases-by-municipalities-card />-->
+      <confirmed-cases-by-municipalities-card />
       <!-- 陽性率グラフ-->
       <!--<positive-rate-card />-->
       <!--<v-col class="DesktopSpacer" />-->

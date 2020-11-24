@@ -14,6 +14,10 @@ type DataType = {
               attr: '軽症・中等症'
               value: number
             },
+		{
+		  attr: '宿泊療養'
+		  value: number
+		},
             {
               attr: '重症'
               value: number
@@ -21,11 +25,7 @@ type DataType = {
           ]
         },
         {
-          attr: '宿泊療養'
-          value: number
-        },
-        {
-          attr: '自宅療養'
+          attr: '自宅療養等'
           value: number
         },
         {
@@ -48,7 +48,7 @@ type ConfirmedCasesType = {
   軽症中等症: number
   重症: number
   宿泊療養: number
-  自宅療養: number
+  自宅療養等: number
   死亡: number
   退院: number
 }
@@ -95,7 +95,7 @@ export default (data: DataType) => {
     軽症中等症: getSelectedItem(data, '軽症・中等症'),
     重症: getSelectedItem(data, '重症'),
     宿泊療養: getSelectedItem(data, '宿泊療養'),
-    自宅療養: getSelectedItem(data, '自宅療養'),
+    自宅療養等: getSelectedItem(data, '自宅療養等'),
     死亡: getSelectedItem(data, '死亡'),
     退院: getSelectedItem(data, '退院')
   }

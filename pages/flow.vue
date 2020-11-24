@@ -145,50 +145,13 @@
           </h5>
           <dl :class="$style.contact">
             <div>
-              <dt>{{ $t('平日/休日(9:00～21:00):') }}</dt>
-              <dd :class="$style.overrideExternalLink">
-                <i18n path="{publicHealthCenter}に掲載しています">
-                  <template v-slot:publicHealthCenter>
-                    <external-link
-                      url="https://ehime-covid19.com/link_covid19/ehime-kikoku.php"
-                    >
-                      {{ $t('各保健所の電話番号は福祉保健局HP') }}
-                    </external-link>
-                  </template>
-                </i18n>
-              </dd>
-            </div>
-            <div>
               <dt>
-                {{ $t('平日/休日(21:00以降) 松山市居住者') }}
-              </dt>
-              <dd>
-                <a :class="$style.tel" href="tel:090-9770-8483">
-                  <icon-phone :class="$style.icon" aria-hidden="true" />
-                  090-9770-8483</a
-                >
-              </dd>
-            </div>
-            <div>
-              <dt>
-                {{ $t('平日/休日(21:00以降) 松山市以外居住者') }}
-              </dt>
-              <dd>
-                <a :class="$style.tel" href="tel:089-909-3733">
-                  <icon-phone :class="$style.icon" aria-hidden="true" />
-                  089-909-3733</a
-                >
-              </dd>
-            </div>
-            <div>
-              <dt>
-                {{ $t('新型コロナ受信相談窓口:24時間対応(土日祝含む)') }}
+                {{ $t('新型コロナ受診相談窓口:24時間対応(土日祝含む)') }}
               </dt>
               <dd>
                 <a :class="$style.tel" href="tel:089-909-3483">
                   <icon-phone :class="$style.icon" aria-hidden="true" />
-                  089-909-3483</a
-                >
+                  089-909-3483</a>
               </dd>
             </div>
           </dl>
@@ -276,7 +239,7 @@
         <h4 :class="[$style.sxnHeadingSmall]">
           {{
             $t(
-              '医師により検査が必要だと判断されPCR検査（愛媛県健康安全研究センター等）を受けた結果'
+              '医師により検査が必要だと判断されPCR検査を受けた結果'
             )
           }}
         </h4>
@@ -317,12 +280,8 @@
       </div>
     </div>
     <div :class="$style.detail">
-      <a
-        href="https://www.pref.ehime.jp/h25500/kansen/covid19.html#telnew"
-        target="_blank"
-        :class="$style.detailButton"
-        rel="noopener noreferrer"
-        >{{ $t('詳細を見る（愛媛県）') }}
+      <a href="https://www.pref.ehime.jp/h25500/kansen/covid19.html#telnew" target="_blank" :class="$style.detailButton" rel="noopener noreferrer" >
+		{{ $t('詳細を見る（愛媛県）') }}
         <v-icon :class="$style.icon" size="2rem">
           mdi-open-in-new
         </v-icon>
